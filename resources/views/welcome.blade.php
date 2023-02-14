@@ -5,12 +5,14 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>EXAMEDIIA GROUP</title>
+  <title>Examedia Group</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link rel="icon"   href="https://examedia.my/wp-content/uploads/2020/02/logoicon.png?37abbf&37abbf">
+  {{-- <link rel="icon"   href="img/exa-group/Examedia-Logo-White-round.pn"> --}}
+  {{-- <link href="img/exa-group/Examedia-Logo-White-round.png" rel="icon"> --}}
   {{-- <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> --}}
 
@@ -61,12 +63,28 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200" style="background-image:url(assets\img\exa-group\hero-1.png);">
+  <section id="hero" class="d-flex align-items-center" style="background-image:url('assets/img/exa-group/hero-1.png');">
+    <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
       <h1>WELCOME TO <br> EXAMEDIA <br> GROUP</h1>
-      <!-- {{-- <a href="#about" class="btn-get-started scrollto">Get Started</a> --}} -->
+      {{-- <h2>We are team of talented designers making websites with Bootstrap</h2> --}}
+      {{-- <a href="#about" class="btn-get-started scrollto">Get Started</a> --}}
     </div>
-  </section><!-- End Hero -->
+  </section>
+  <!-- End Hero -->
+
+ 
+  <!-- ======= Hero Section ======= -->
+  {{-- <section id="hero" class=""> --}}
+    {{-- <div id="hero"  class=" text-center d-flex align-items-center justify-content-center" data-aos="fade-in" data-aos-delay="200" 
+    style="background-image:url(assets/img/exa-group/hero-1.png); width: 100%;  height: 80vh; color #ffff;">
+    <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200" style="background-image:url(/img/exa-group/hero-1.png);">
+      <div class="" style="color #ffff;">
+        <h1>WELCOME TO <br> EXAMEDIA <br> GROUP</h1>
+      </div>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a> 
+    </div> --}}
+  {{-- </section> --}}
+
 
   <main id="main">
     <!-- ======= About Section ======= -->
