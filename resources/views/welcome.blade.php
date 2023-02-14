@@ -76,7 +76,7 @@
           <div class="col-lg-4">
             <div class="section-title" data-aos="fade-right">
               <h2>ABOUT US</h2>
-              <p>Magnam dolores commodi suscipit nemo qui impedit suscipit alias ea. </p>
+              <p></p>
             </div>
           </div>
 
@@ -154,7 +154,7 @@
           <div class="col-lg-4">
             <div class="section-title" data-aos="fade-right">
               <h2>OUR CEO</h2>
-              <p>Necessitatibus eius consequatur </p>
+              <p></p>
             </div>
           </div>
           <div class="col-lg-8">
@@ -194,7 +194,7 @@
           <div class="col-lg-4">
             <div class="section-title" data-aos="fade-right">
               <h2>COMPANY</h2>
-              <p>Magnam dolores commodi suscipit nemo qui impedit suscipit alias ea. </p>
+              <p></p>
             </div>
           </div>
           <div class="col-lg-8">
@@ -237,7 +237,7 @@
           <div class="col-lg-4" data-aos="fade-right">
             <div class="section-title">
               <h2>Contact</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <p></p>
             </div>
           </div>
 
