@@ -248,25 +248,32 @@
 
               <div class="box-2 col-sm ">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                  <div class="icon"><i class="bi bi-usb-plug"></i></div>
-                  <h4><a href="">EXAMEDIA <br> SOLUTION</a></h4>
-                  <p>Hardware, data centre & managed services</p>
+                  <a href="solution.examedia.my" target="blank">
+                    <div class="icon"><i class="bi bi-usb-plug"></i></div>
+                    {{-- <h4><a href="solution.examedia.my">EXAMEDIA <br> SOLUTION</a></h4> --}}
+                    <h4>EXAMEDIA <br> SOLUTION</h4>
+                    <p style="color: #333333;">Hardware, data centre & managed services</p>
+                  </a>
                 </div>
               </div>
     
               <div class="box-2 col-sm ">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                  <div class="icon"><i class="bi bi-laptop"></i></div>
-                  <h4><a href="">EXAMEDIA <br> SOFTWARE</a></h4>
-                  <p>Enterprise software, custome build system & mobile application</p>
+                  <a href="software.examedia.my" target="blank">
+                    <div class="icon"><i class="bi bi-laptop"></i></div>
+                    <h4>EXAMEDIA <br> SOFTWARE</h4>
+                    <p style="color: #333333;">Enterprise software, custome build system & mobile application</p>
+                  </a>
                 </div>
               </div>
     
               <div class="box-2 col-sm ">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                  <div class="icon"><i class="bi bi-hammer"></i></div>
-                  <h4><a href="">EXAMEDIA <br> TECHNOCRAFT</a></h4>
-                  <p>Construction & interior design</p>
+                  <a href="technocraft.examedia.my" target="blank">
+                    <div class="icon"><i class="bi bi-hammer"></i></div>
+                    <h4>EXAMEDIA <br> TECHNOCRAFT</h4>
+                    <p style="color: #333333;">Construction & interior design</p>
+                  </a>
                 </div>
               </div>
     
