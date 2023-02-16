@@ -38,22 +38,22 @@
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container">
       <div class="header-container d-flex align-items-center justify-content-between">
-        <div class="logo">
+        <div class="logo d-flex align-items-center">
           <!-- <img src="assets/img/tim/tim-1.jpg" class="img-fluid" alt=""> -->
           
           <!-- <h1 class="text-light"><a href="index.html"><span>Bethany</span></a></h1> -->
           <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html"><img src="assets/img/tim/tim-1.jpg" alt="" class="img-fluid"></a> -->
-          <a href="index.html"><img src="assets/img/exa-group/exa-group-logo-1.png" alt="" style=" width: 200px;object-fit: scale-down;" class="img-fluid"></a>
+           {{-- <a href="/"><img src="assets/img/tim/tim-1.jpg" alt="" class="img-fluid"></a> --}}
+          <a href="/"><img src="assets/img/exa-group/exa-group-logo-1.png" alt="" style=" width: 200px;" class="img-fluid"></a>
         </div>
   
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto fw-bold" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#ceo">CEO</a></li>
-            <li><a class="nav-link scrollto " href="#company">Company</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="nav-link scrollto fw-bold" href="/">Home</a></li>
+            <li><a class="nav-link scrollto fw-bold" href="#about">About</a></li>
+            <li><a class="nav-link scrollto fw-bold" href="#ceo">CEO</a></li>
+            <li><a class="nav-link scrollto fw-bold" href="#company">Company</a></li>
+            <li><a class="nav-link scrollto fw-bold" href="#contact">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -63,7 +63,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center" style="background-image:url('assets/img/exa-group/hero-1.png');">
+  <section id="hero" class="d-flex align-items-center justify-content-center" style="background-image:url('assets/img/exa-group/hero-1.png');">
     <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
       <h1>WELCOME TO <br> EXAMEDIA <br> GROUP</h1>
       {{-- <h2>We are team of talented designers making websites with Bootstrap</h2> --}}
@@ -74,16 +74,17 @@
 
  
   <!-- ======= Hero Section ======= -->
-  {{-- <section id="hero" class=""> --}}
-    {{-- <div id="hero"  class=" text-center d-flex align-items-center justify-content-center" data-aos="fade-in" data-aos-delay="200" 
+  {{-- <section id="hero" class="">
+    <div id="hero"  class=" text-center d-flex align-items-center justify-content-center" data-aos="fade-in" data-aos-delay="200" 
     style="background-image:url(assets/img/exa-group/hero-1.png); width: 100%;  height: 80vh; color #ffff;">
     <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200" style="background-image:url(/img/exa-group/hero-1.png);">
       <div class="" style="color #ffff;">
         <h1>WELCOME TO <br> EXAMEDIA <br> GROUP</h1>
       </div>
       <a href="#about" class="btn-get-started scrollto">Get Started</a> 
-    </div> --}}
-  {{-- </section> --}}
+    </div>
+    </div>
+  </section> --}}
 
 
   <main id="main">
@@ -163,7 +164,8 @@
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
+    </section>
+    <!-- End Why Us Section -->
 
     <!-- ======= CEO Section ======= -->
     <section id="ceo" class="team">
@@ -176,34 +178,58 @@
               <p></p>
             </div>
           </div>
+          
           <div class="col-lg-8">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                  <div class="pic myBtn"><img src="assets/img/exa-group/ceo-hafiz-halim-small.png" class="img-fluid" style="object-fit: fill;" alt=""></div>
+
+            <div class="row box-1 ">
+
+              {{-- <div class="  col-md-4 col-12">
+                <div class="member " data-aos="zoom-in" data-aos-delay="100">
+                  <div class="pic">
+                    <img src="assets/img/exa-group/ceo-hafiz-halim-small.png" class="img-fluid"  alt="">
+                  </div>
                   <div class="member-info">
                     <h4>HAFIZ HALIM</h4>
                     <h6>CEO/ Founder</h6>
                   </div>
                 </div>
               </div>
-    
-              <div class="col-lg-6 mt-4 mt-lg-0">
-                <div class="member" data-aos="zoom-in" data-aos-delay="200">
+
+              <div class=" col-md-4 col-8">
+                <div class=" member" data-aos="zoom-in" data-aos-delay="200">
                   <div class="pic"><img src="assets/img/exa-group/ceo-suhaimi-hassan-small.png" class="img-fluid" alt=""></div>
                   <div class="member-info">
                     <h4>MOHD SUHAIMI HASSAN</h4>
                     <h6>Managing Director</h6>
                   </div>
                 </div>
-              </div>
+              </div> --}}
+              
+                <div class="member col-md-4 col-12" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="pic">
+                    <img src="assets/img/exa-group/ceo-hafiz-halim-small.png" class="img-fluid"  alt="">
+                  </div>
+                  <div class="member-info">
+                    <h4>HAFIZ HALIM</h4>
+                    <h6>CEO/ Founder</h6>
+                  </div>
+                </div>
+    
+                <div class="member col-md-4 col-12" data-aos="zoom-in" data-aos-delay="200">
+                  <div class="pic"><img src="assets/img/exa-group/ceo-suhaimi-hassan-small.png" class="img-fluid" alt=""></div>
+                  <div class="member-info">
+                    <h4>MOHD SUHAIMI HASSAN</h4>
+                    <h6>Managing Director</h6>
+                  </div>
+                </div>
             </div>
     
           </div>
         </div>
     
       </div>
-    </section><!-- End Team Section -->
+    </section>
+    <!-- End Team Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="company" class="services section-bg">
@@ -216,29 +242,31 @@
               <p></p>
             </div>
           </div>
+
           <div class="col-lg-8">
-            <div class="row">
-              <div class="col-md-4 d-flex align-items-stretch">
+            <div class="row box-1">
+
+              <div class="box-2 col-sm ">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                   <div class="icon"><i class="bi bi-usb-plug"></i></div>
                   <h4><a href="">EXAMEDIA <br> SOLUTION</a></h4>
-                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                  <p>Hardware, data centre & managed services</p>
                 </div>
               </div>
     
-              <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="box-2 col-sm ">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                   <div class="icon"><i class="bi bi-laptop"></i></div>
                   <h4><a href="">EXAMEDIA <br> SOFTWARE</a></h4>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                  <p>Enterprise software, custome build system & mobile application</p>
                 </div>
               </div>
     
-              <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="box-2 col-sm ">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                   <div class="icon"><i class="bi bi-hammer"></i></div>
                   <h4><a href="">EXAMEDIA <br> TECHNOCRAFT</a></h4>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                  <p>Construction & interior design</p>
                 </div>
               </div>
     
@@ -261,10 +289,58 @@
           </div>
 
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
-            <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15935.917055949072!2d101.5572644!3d3.1001691!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9e770d04e07bea5!2sExamedia%20Solutions%20Sdn%20Bhd!5e0!3m2!1sen!2smy!4v1674766089587!5m2!1sen!2smy"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="" >
+              <iframe style=" width: 100%; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15935.917055949072!2d101.5572644!3d3.1001691!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9e770d04e07bea5!2sExamedia%20Solutions%20Sdn%20Bhd!5e0!3m2!1sen!2smy!4v1674766089587!5m2!1sen!2smy"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           
-            <div class="row">
-              <div class="col-lg-6 mt-4">
+            <div class="row box-contact ">
+              <div class="col-l box-contact-in info">
+                <i class="bi bi-geo-alt"></i>
+                <!-- <h4>Location:</h4> -->
+                <p>
+                  No 8 & 10, Jalan Opera L U2/L, <br>
+                  TTDI Jaya,  Seksyen U2, <br>
+                  40150 Shah Alam, Selangor
+                </p>
+              </div>
+
+              <div class="col-lg-8 box-contact-in info">
+                  <i class="bi bi-envelope"></i>
+                  <!-- <h4>Email:</h4> -->
+                  <p>
+                    <strong>Fax:</strong> +6 03 7832 0008 <br>
+                    <strong>Phone:</strong> +6 03 7832 0008 <br>
+                    <strong>Email:</strong> info@examedia.my <br>
+                  </p>
+              </div>
+
+            </div>
+
+            <div class="row box-contact ">
+              
+              <div class="col-lg-8 box-contact-in info ">
+                <i class="bi bi-phone"></i>
+                <!-- <h4>Call:</h4> -->
+                <p>
+                  <strong>Monday-Thursday</strong> 8.30 AM – 5.30 PM  <br>
+                  <strong>Friday:</strong> 8.30 AM – 5.30 PM  <br>
+                  <strong>Saturday & Sunday:</strong>Close <br>
+                </p>
+              </div>
+
+              <div class="col-lg-8  box-contact-in info d-flex justify-content-center  align-items-center w-100">
+                <div class="social-links d-flex justify-content-center">
+                  <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+                  <a href="https://www.facebook.com/examediasolutions/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="https://www.instagram.com/examediasolutions/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="https://www.linkedin.com/company/examedia-solutions-sdn-bhd/mycompany/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                  <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+                </div>
+              </div>
+
+            </div>
+
+              {{-- <div class="col-sm box-contact-in">
                 <div class="info">
                   <i class="bi bi-geo-alt"></i>
                   <!-- <h4>Location:</h4> -->
@@ -274,8 +350,9 @@
                   </p>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="info w-100 mt-4">
+
+              <div class="col-sm box-contact-in">
+                <div class="info">
                   <div class="social-links d-flex justify-content-center">
                     <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
                     <a href="https://www.facebook.com/examediasolutions/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -285,9 +362,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6 mt-4">
+
+              <div class="col-sm box-contact-in">
                 <div class="info">
                   <i class="bi bi-envelope"></i>
                   <!-- <h4>Email:</h4> -->
@@ -298,8 +374,9 @@
                   </p>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="info w-100 mt-4">
+
+              <div class="col-sm box-contact-in">
+                <div class="info ">
                   <i class="bi bi-phone"></i>
                   <!-- <h4>Call:</h4> -->
                   <p>
@@ -308,8 +385,9 @@
                     <strong>Saturday & Sunday:</strong>Close <br>
                   </p>
                 </div>
-              </div>
+              </div> --}}
             </div>
+
 
             {{-- <div class="">
               <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
@@ -355,21 +433,48 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 footer-contact d-flex justify-content-center">
-            <img src="assets/img/exa-group/exa-group-logo-2.png" class="img-fluid" style="max-height: 150px;" alt="Examedia Group Logo">
+            <img src="assets/img/exa-group/exa-group-logo-2.png" class="img-fluid" style="max-height: 150px; object-fit:contain;" alt="Examedia Group Logo">
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>LINKS</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#about">About</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#CEO">CEO</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#company">Company</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+          <div class="col-lg-8 col-md-6 footer-links">
+            <h4 class="text-inderline">LINKS</h4>
+            {{-- <div class="row">
+              <div><i class="bx bx-chevron-right"></i> <a href="/">Home</a></div>
+              <div><i class="bx bx-chevron-right"></i> <a href="#about">About</a></div>
+              <div><i class="bx bx-chevron-right"></i> <a href="#CEO">CEO</a></div>
+              <div><i class="bx bx-chevron-right"></i> <a href="#company">Company</a></div>
+              <div><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></div>
+            </div> --}}
 
-          <div class="p-2 col-lg-4 col-md-6">
+            <div class="container">
+              <div class="row" >
+                <div class="col-sm" style="color:#fff;">
+                  <a href="/ "><h5>Home</h5></a>
+                </div>
+                <div class="col-sm">
+                  <a href="#about"><h5>about</h5></a>
+                </div>
+                <div class="col-sm">
+                   <a href="#CEO"><h5>CEO</h5></a>
+                </div>
+                <div class="col-sm">
+                  <a href="#company"><h5>company</h5></a>
+                </div>
+                <div class="col-sm">
+                  <a href="#contact"><h5>contact</h5></a>
+                </div>
+              </div>
+            </div>
+            {{-- <div class="row">
+              <div><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></div>
+              <div><i class="bx bx-chevron-right"></i> <a href="#about">About</a></div>
+              <div><i class="bx bx-chevron-right"></i> <a href="#CEO">CEO</a></div>
+              <div><i class="bx bx-chevron-right"></i> <a href="#company">Company</a></div>
+              <div><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></div>
+            </div>
+          </div> --}}
+
+          {{-- <div class="p-2 col-lg-4 col-md-6">
             <div class="  footer-newsletter" style="background-color: black;">
               <h4>Join Our Newsletter</h4>
               <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
@@ -377,7 +482,7 @@
                 <input type="email" name="email"><input type="submit" value="Subscribe">
               </form>
             </div>
-          </div>
+          </div> --}}
 
 
         </div>
@@ -387,7 +492,7 @@
     <div class="container d-md-flex py-4 d-flex justify-content-center">
 
       <div class="d-flex justify-content-center ">
-        <div class="copyright">
+        <div class="copyright" style="  text-align: center;">
           &copy; 2023 by <strong><span>EXAMEDIA GROUP</span></strong>. Proudly made by Examedia Group
         </div>
       </div>

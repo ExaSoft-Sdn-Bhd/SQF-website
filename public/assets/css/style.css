@@ -125,7 +125,8 @@ h6 {
 
 #header .logo {
   overflow: hidden;
-  padding: 16px 30px 12px 30px;
+  /* margin: 15px; */
+  padding: 16px 30px 21px 30px;
   background:  var(--color-primary);
 }
 
@@ -457,7 +458,7 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #1f1;
+  color: #fff;
 }
 
 #hero h2 {
@@ -529,7 +530,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -762,7 +763,21 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .box-1 {
+  display: flex;
+  gap: 20px ;
+
+}
+
+.services .box-2 {
+  display: flex;
+  flex: 1;
+
+}
+
 .services .icon-box {
+  flex: 1;
+
   text-align: center;
   padding: 40px 20px;
   transition: all ease-in-out 0.3s;
@@ -1091,27 +1106,39 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: #fff;
+  display: flex;
+}
+
+.team .box-1 {
+  padding-top: 30px;
+  /* gap: 20px 0; */
+  /* background: var(--color-primary10); */
+  display:flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 
 .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 30px ;
   /* border-radius: 10px; */
   text-align: center;
   background: var(--color-primary);
+  flex: 1;
+  margin:10px;
 }
 
 .team .member .pic {
   overflow: hidden;
   width: 100%;
-  height: 400px;
-  /* object-fit: contain; */
+  /* height: 400px; */
+  object-fit: contain;
   /* object-fit: fill; */
-  object-fit: cover;
+  /* object-fit: cover; */
   /* border-radius: 50%; */
-  /* margin: 0 auto 20px auto; */
+  margin: 0 auto 20px auto;
 }
 
 .team .member .pic img {
@@ -1156,7 +1183,8 @@ section {
 }
 
 .team .member .member-info {
-  padding-top: 20px;
+  padding-top: 40px;
+  flex: 1;
 }
 
 
@@ -1195,11 +1223,27 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact .box-contact{
+ display:flex;
+ padding: 10px 5px 0 5px; 
+ /* background: #ff1; */
+ 
+}
+
+.contact .box-contact-in {
+  flex:1;
+  align-items: center;
+
+ }
+
 .contact .info {
-  padding: 30px;
-  width: 100%;
+  margin: 5px;
+  width: 100%;  
   background: #fff;
+  /* background: #1ff; */
+  padding: 20px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 .contact .info i {
@@ -1443,6 +1487,9 @@ section {
   color: #ffff;
   position: relative;
   padding-bottom: 12px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
 }
 
 #footer .footer-top .footer-links {
@@ -1454,6 +1501,7 @@ section {
   padding: 0;
   margin: 0;
 }
+
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
@@ -1477,6 +1525,14 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+}
+
+#footer .footer-top .footer-links a {
+  color: #ffff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 #footer .footer-top .footer-links ul a:hover {
