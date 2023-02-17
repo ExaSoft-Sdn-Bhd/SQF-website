@@ -10,7 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link rel="icon"   href="https://examedia.my/wp-content/uploads/2020/02/logoicon.png?37abbf&37abbf">
+  <link rel="icon"   href="assets/img/exa-group/logo/red.png">
+  {{-- <link rel="icon"   href="https://examedia.my/wp-content/uploads/2020/02/logoicon.png?37abbf&37abbf"> --}}
   {{-- <link rel="icon"   href="img/exa-group/Examedia-Logo-White-round.pn"> --}}
   {{-- <link href="img/exa-group/Examedia-Logo-White-round.png" rel="icon"> --}}
   {{-- <link href="assets/img/favicon.png" rel="icon">
